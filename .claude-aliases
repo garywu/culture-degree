@@ -1,0 +1,22 @@
+#!/bin/bash
+# Claude Development Aliases for Culture Degree
+# Source this file: source .claude-aliases
+
+# GitHub shortcuts
+alias ci="gh issue create"
+alias cil="gh issue list --state open"
+alias cic="gh issue comment"
+alias cpr="gh pr create"
+
+# Development shortcuts
+alias cdev="npm run dev 2>/dev/null || make dev"
+alias ctest="npm test 2>/dev/null || make test"
+alias cbuild="npm run build 2>/dev/null || make build"
+
+# Session management
+alias cs="make session-start"
+alias cse="make session-end"
+alias csl="make session-log"
+alias css="make session-status"
+
+echo "✅ Claude aliases loaded for Culture Degree project!"

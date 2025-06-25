@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+vendor/
+venv/
+env/
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.coverage
+htmlcov/
+
+# Environment files
+.env
+.env.production
+
+# Session tracking (keep structure but not content)
+.claude/history/sessions/*
+!.claude/history/sessions/.gitkeep
+.claude/session.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Package files
+*.tgz
+*.zip
+*.tar.gz
+
+# Local development
+.local/
+*.local
+
+# Secrets
+*.pem
+*.key
+secrets/
