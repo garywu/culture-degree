@@ -1,0 +1,15 @@
+[submodule "external/q-bit"]
+	path = external/q-bit
+	url = https://github.com/garywu/q-bit.git
+[submodule "external/i-know-kung-fu"]
+	path = external/i-know-kung-fu
+	url = https://github.com/garywu/i-know-kung-fu.git
+[submodule "external/wtfoss"]
+	path = external/wtfoss
+	url = https://github.com/garywu/wtfoss.git
+[submodule "external/agent-init"]
+	path = external/agent-init
+	url = https://github.com/garywu/agent-init.git
+[submodule "external/lovelace"]
+	path = external/lovelace
+	url = https://github.com/garywu/lovelace.git
